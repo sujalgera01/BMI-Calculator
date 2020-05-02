@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+   margin-bottom: 0;
+}
+
+hr {
+  width: 20%;
+}
+
+ul {
+  font-size: 30px;
+}
+
+.list {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 50px;
+}
