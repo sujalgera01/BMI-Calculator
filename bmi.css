@@ -57,6 +57,11 @@ ul {
 	font-size: 60px;
 }
 
+#para1:hover,
+#para2:hover {
+	color: orange;
+}
+
 strong {
 	color: #f1f2f6;
 }
