@@ -1,25 +1,28 @@
 alert("Welcome!!");
 var initBMI = 0;
 var category;
-var ask = prompt("Choose the Data type");
 
-if(ask === "1"){
+var SI = document.getElementById('#para1');
+var Metric = document.getElementById('para2');
+
+SI.addEventListener("click", function(){
+
   var weight = prompt("Enter your weight in Kgs ");
   var height = prompt("Enter your height in meters ");
   
   BMI = initBMI + weight / (height * height);
    range();
-}
+});
 
 
-else if(ask === "2"){
-    var weight = prompt("Enter your weight in lbs");
-    var height = prompt("Enter your height in inches");
+Metric.addEventListener("click", function(){
+
+  var weight = prompt("Enter your weight in lbs");
+  var height = prompt("Enter your height in inches");
   
   BMI = initBMI + (703 * weight)/(height * height);
   range();
-}
-
+});
 
 function range(){
   if(BMI < 18.5){
