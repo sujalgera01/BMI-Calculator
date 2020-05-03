@@ -2,8 +2,8 @@ alert("Welcome!!");
 var initBMI = 0;
 var category;
 
-var SI = document.getElementById('#para1');
-var Metric = document.getElementById('para2');
+var SI = document.getElementById("para1");
+var Metric = document.getElementById("para2");
 
 SI.addEventListener("click", function(){
 
